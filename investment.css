@@ -1,0 +1,375 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+
+*,
+*::after,
+*::before{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    font-size: 62.5%;
+}
+
+body{
+    /* border: 5px solid purple; */
+    font-family: 'Poppins', sans-serif;
+}
+
+
+.hero-banner{
+    width: 100%;
+    height: 100vh;
+}
+
+.hero-banner img{
+    width: 100%;
+    object-fit: cover;
+}
+
+.service-block1{
+    width: 100%;
+    height: 950px;
+}
+
+.service-block1 .background-styling1{
+    background-color: #000;
+}
+
+.service-block1 .background-styling1 .investment-heading{
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.service-block1 .background-styling1 .investment-heading h1{
+    font-size: 45px;
+    color: #fff;
+    text-transform: uppercase;
+}
+
+.service-block1 .background-styling1 .investment-heading h3{
+    font-size: 20px;
+    color: #fff;
+    text-transform: capitalize;
+}
+
+.service-block1 .background-styling1 .container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.service-block1 .background-styling1 .container .economy-plan{
+    /* border: 2px solid #fff; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-self: center;
+}
+
+.service-block1 .background-styling1 .container .economy-plan .eco-heading h1{
+    text-align: center;
+    font-size: 30px;
+    color: #fff;
+    text-transform: uppercase   ;
+}
+
+.service-block1 .background-styling1 .container .economy-plan .eco-price h3{
+    font-size: 22px;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 7px;
+}
+
+
+.service-block1 .background-styling1 .container .economy-plan .eco-lists ul{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-self: center;
+}
+
+.service-block1 .background-styling1 .container .economy-plan .eco-lists ul li{
+    margin-top: 18px;
+    color: #fff;
+}
+
+
+.service-block1 .background-styling1 .container .economy-plan .eco-lists ul li i{
+    /* margin-top: 18px; */
+    /* font-size: 10px; */
+    color: #00ff74;
+    margin-right: 10px;
+}
+
+
+
+.service-block1 .background-styling1 .container .economy-plan button{
+    margin-top: 30px;
+    cursor: pointer;
+    text-decoration: none;
+    background-color: #00ff74;
+    width: 200px;
+    outline: none;
+    border: none;
+    font-weight: 600;
+    height: 45px;
+    font-size: 16px;
+    padding: 10px 10px;
+    color: #fff;
+    transition: all ease-in-out 0.3s;
+    margin-bottom: 10px;
+}
+
+.service-block1 .background-styling1 .container .economy-plan button:hover{
+    border: 2px solid #00ff74;
+    background-color: #000311;
+    color: #00ff74;
+}
+
+
+/* ---- deluxe plan ----   */
+
+.service-block1 .background-styling1 .container .deluxe-plan .eco-lists ul li i{
+    /* margin-top: 18px; */
+    /* font-size: 10px; */
+    color: #f20055;
+    margin-right: 10px;
+}
+
+.service-block1 .background-styling1 .container .deluxe-plan button{
+    margin-top: 30px;
+    cursor: pointer;
+    text-decoration: none;
+    background-color: #f20055;
+    width: 200px;
+    outline: none;
+    border: none;
+    font-weight: 600;
+    height: 45px;
+    font-size: 16px;
+    padding: 10px 10px;
+    color: #fff;
+    transition: all ease-in-out 0.3s;
+    margin-bottom: 10px;
+}
+
+.service-block1 .background-styling1 .container .deluxe-plan button:hover{
+    border: 2px solid #f20055;
+    background-color: #000311;
+    color: #f20055;
+    /* color: #00ff74; */
+}
+
+/* ---- premium plan ---  */
+
+.service-block1 .background-styling1 .container .premium-plan .eco-lists ul li i{
+    /* margin-top: 18px; */
+    /* font-size: 10px; */
+    color: #faa80f;
+    /* color: #f20055; */
+    margin-right: 10px;
+}
+
+.service-block1 .background-styling1 .container .premium-plan button{
+    margin-top: 30px;
+    cursor: pointer;
+    text-decoration: none;
+    background-color: #faa80f;
+    width: 200px;
+    outline: none;
+    border: none;
+    font-weight: 600;
+    height: 45px;
+    font-size: 16px;
+    padding: 10px 10px;
+    color: #fff;
+    transition: all ease-in-out 0.3s;
+    margin-bottom: 10px;
+}
+
+.service-block1 .background-styling1 .container .premium-plan button:hover{
+    border: 2px solid #faa80f;
+    background-color: #000311;
+    color: #faa80f;
+    /* color: #00ff74; */
+}
+
+/* -- multi vendor plan ---  */
+
+.service-block1 .background-styling1 .container .multi-plan .eco-lists ul li i{
+    /* margin-top: 18px; */
+    /* font-size: 10px; */
+    color: #0c60ff;
+    /* color: #faa80f; */
+    /* color: #f20055; */
+    margin-right: 10px;
+}
+
+.service-block1 .background-styling1 .container .multi-plan button{
+    margin-top: 30px;
+    cursor: pointer;
+    text-decoration: none;
+    background-color: #0c60ff;
+    width: 200px;
+    outline: none;
+    border: none;
+    font-weight: 600;
+    height: 45px;
+    font-size: 16px;
+    padding: 10px 10px;
+    color: #fff;
+    transition: all ease-in-out 0.3s;
+    margin-bottom: 10px;
+}
+
+.service-block1 .background-styling1 .container .multi-plan button:hover{
+    border: 2px solid #0c60ff;
+    background-color: #000311;
+    color: #0c60ff;
+    /* color: #00ff74; */
+}
+
+
+.service-block2{
+    width: 100%;
+    height: 1550px;
+}
+
+.service-block3{
+    width: 100%;
+    height: 1250px;
+}
+
+@media(min-width:100px) and (max-width:500px){
+
+    .hero-banner{
+        display: none;
+    }
+    .service-block1{
+        width: 100%;
+        /* border: 1px solid red; */
+        height: 2400px;
+    }
+
+    .service-block1 .background-styling1 .investment-heading{
+        margin-top: 100px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .service-block1 .background-styling1 .investment-heading h1{
+        font-size: 35px;
+        color: #fff;
+        text-transform: uppercase;
+    }
+
+    .service-block1 .background-styling1 .investment-heading h3{
+        font-size: 15px;
+        color: #fff;
+        text-transform: capitalize;
+    }
+
+    .service-block1 .background-styling1 .container{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+    }
+
+    .service-block1 .background-styling1 .container .economy-plan{
+        /* border: 2px solid #fff; */
+        display: flex;
+        flex-direction: column;
+        /* width: 100%; */
+        justify-content: center;
+        align-self: center;
+    }
+
+    .service-block2 .background-styling1 .container .economy-plan{
+        /* border: 2px solid #fff; */
+        display: flex;
+        flex-direction: column;
+        /* width: 100%; */
+        justify-content: center;
+        align-self: center;
+    } 
+    .service-block2{
+        width: 100%;
+        height: 3200px;
+    }
+
+    .service-block3{
+        width: 100%;
+        height: 2350px;
+    }
+
+}
+
+
+@media(min-width:501px) and (max-width:768px){
+    .service-block1{
+        width: 100%;
+        /* border: 1px solid red; */
+        height: 2500px;
+    }
+
+    .service-block1 .background-styling1 .investment-heading{
+        margin-top: 100px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .service-block1 .background-styling1 .investment-heading h1{
+        font-size: 35px;
+        color: #fff;
+        text-transform: uppercase;
+    }
+
+    .service-block1 .background-styling1 .investment-heading h3{
+        font-size: 15px;
+        color: #fff;
+        text-transform: capitalize;
+    }
+
+    .service-block1 .background-styling1 .container{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+    }
+
+    .service-block1 .background-styling1 .container .economy-plan{
+        /* border: 2px solid #fff; */
+        display: flex;
+        flex-direction: column;
+        /* width: 100%; */
+        justify-content: center;
+        align-self: center;
+    }
+
+    .service-block2 .background-styling1 .container .economy-plan{
+        /* border: 2px solid #fff; */
+        display: flex;
+        flex-direction: column;
+        /* width: 100%; */
+        justify-content: center;
+        align-self: center;
+    } 
+    .service-block2{
+        width: 100%;
+        height: 3400px;
+    }
+
+    .service-block3{
+        width: 100%;
+        height: 2450px;
+    }
+
+}

@@ -1,0 +1,706 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+
+*,
+*::after,
+*::before{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    font-size: 62.5%;
+}
+
+body{
+    /* border: 1px solid purple; */
+    font-family: 'Poppins', sans-serif;
+}
+
+.containers-1 {
+    min-height: 100vh;
+    /* pa */
+    width: 100%;
+    background-color: #485461;
+    background-image: linear-gradient(135deg, #0c0228 0%, #000311 74%);
+    /* background-color: #eee;
+    background-image: linear-gradient(135deg, #f7d600 0%, #099186 74%); */
+    overflow-x: hidden;
+    transform-style: preserve-3d;
+  }
+
+.headers {
+    min-height: 100vh;
+    width: 100%;
+    background: url("./img/Apple\ Green\ Minimalist\ Digital\ Marketing\ Banner\ \(1\)/1.jpg") no-repeat center / cover;
+    position: relative;
+  }
+  
+
+/* header h1,h2,p{
+    display: none;
+} */
+
+
+.seo-page{
+    position: relative;
+    background-color: #000311;
+    width: 100%;
+    /* background-color: #000d4c; */ 
+    height: 100vh;
+}
+
+.seo-page-img{
+    /* border-radius: -100%; */
+    position: absolute;
+    background-image: url(./img/seo-banner-heading.jpg);
+    background-repeat:no-repeat;
+    height: 100vh;
+    width: 100%;
+    /* border: 1px solid red; */
+    background-position: 50%;
+    background-size: 105%;
+    z-index: 1;
+    background-color: #000311;
+    }
+
+.seo-page .seo-heading-para p{
+    width: 60%;
+    display: flex;
+    justify-content: center;
+    font-size: 25px;
+    font-weight: 500;
+    line-height: 34px;
+    color: #fff;
+}
+
+.seo-page .seo-landing-paragraph{
+    display: flex;
+    flex-direction: column;
+    gap: 0px;
+}
+
+
+.seo-page .seo-landing-para-small-heading p{
+    color: #f20055;
+    font-size: 18px;
+    font-weight: 600;
+    /* background-color: #f20055; */
+}
+
+.seo-page .seo-landing-para-large-heading h1{
+    color: #fff;
+    font-size: 75px;
+    font-weight: 550;
+    /* font-family: Arial, Helvetica, sans-serif; */
+}
+
+.seo-page .seo-landing-para-1 p{
+    color: #fff;
+    font-size: 18px;
+    text-align: justify;
+    margin-bottom: 20px;
+}
+
+.seo-page .seo-landing-para-btn button{
+    transition: all ease-in-out 0.2s;
+    height: 45px;
+    cursor: pointer;
+    text-decoration: none;
+    background-color: #f20055;
+    width: 250px;
+    outline: none;
+    border: none;
+    font-weight: 600;
+    font-size: 16px;
+    padding: 10px 10px;
+    color: #fff;
+    /* margin-bottom: 25px; */
+    /* width: 250px; */
+}
+.seo-page .seo-landing-para-btn button:hover{
+    border: #f20055 2px solid;
+    background-color: #000311;
+    color: #f20055;
+}
+
+
+/* ... service block...  */
+/* ----------------------    /////////////// --------------------- */
+/* // service block seo page 1 */
+.service-block{
+    width: 100%;
+    height: 100vh;
+    background-size: auto 80%;
+    position: relative;
+    overflow: hidden;
+    background-repeat: repeat;
+    /* background-position: center; */
+}
+
+.seo-text .seo-notes p{
+    cursor: pointer;
+    transition: all ease-in-out 0.3s;
+
+}
+
+.seo-text .seo-notes p:hover{
+    color: #f20055;
+}
+
+.smm-notes .smm-notes1 .tech-used img{
+    width: 80px;
+    /* background-size: cover; */
+}
+
+.smm-notes .smm-notes1 p{
+    margin-bottom: 10px;
+}
+
+.smm-notes .smm-notes2 p{
+    margin-bottom: 10px;
+}
+
+.smm-notes .smm-notes2 img{
+    width: 50px;
+    /* margin-bottom: ; */
+}
+
+
+.smm-notes .smm-notes1 .tech-used{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    /* justify-content: center; */
+}
+
+.smm-notes .smm-notes2 .tech-used{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    /* justify-content: center; */
+}
+
+
+.smm-notes .smm-notes1 .tech-used p{
+    padding-top: 5px;
+}
+
+.smm-notes .smm-notes2 .tech-used{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    /* justify-content: center; */
+}
+
+
+.smm-notes .smm-notes2 .tech-used p{
+    padding-top: 1px;
+}
+
+
+
+/* responsive css  */
+
+/* @media (min-width:100px) and (max-width:375px){
+    body{
+        border: 1px solid rebeccapurple
+    }
+} */
+
+
+@media (min-width:100px) and (max-width:500px){
+
+    .body-1{
+        display: flex;
+        min-height: 32vh;
+        background-color: #000311;
+        justify-content: flex-end;
+        align-items: flex-end;
+    }
+
+
+      .seo-page{
+        display: none;
+        position: relative;
+        background-color: #000311;
+        width: 100%;
+        /* background-color: #000d4c; */ 
+        height: 800px;
+      }
+
+      .service-block{
+        /* border: 1px solid rgb(0, 43, 128); */
+        width: 100%;
+        height: 780px;
+        background-size: auto 80%;
+        position: relative;
+        overflow: hidden;
+        background-repeat: repeat;
+        /* background-position: center; */
+    }
+
+    .service-block1{
+        /* border: 1px solid rgb(255, 0, 200)(0, 255, 60); */
+        width: 100%;
+        min-height: 920px;
+        /* height: 1200; */
+        background-size: auto 80%;
+        position: relative;
+        overflow: hidden;
+        background-repeat: repeat;
+        /* background-position: center; */
+    }
+
+    .service-block1 .background-styling1 .container .smm-text .seo-landing-para-btn button{
+        width: 200px;
+    }
+
+    .bar {
+        width: 1.9rem;
+        height: 1.5px;
+        border-radius: 2px;
+        background-color: #fff;
+        transition: 0.5s;
+        position: relative;
+      }
+
+      .bar:before,
+  .bar:after {
+    content: "";
+    position: absolute;
+    width: inherit;
+    height: inherit;
+    background-color: #fff;
+    transition: 0.5s;
+  }
+
+    .headers {
+        min-height: 100vh;
+        width: 100%;
+        background: url("./img/seo-2.png") no-repeat center / cover;
+        position: relative;
+      }
+
+      .links {
+        position: absolute;
+        width: 100%;
+        right: 0;
+        top: 0;
+        height: 100vh;
+        z-index: 2;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+      .contact-page{
+        width: 100%;
+        height: 1050px;
+        /* border: 1px solid rgb(255, 204, 0); */
+        background-color: #000311;
+    }
+    body{
+        /* border:  2px solid red; */
+        background-color: #000311;
+    }
+
+    .body-1{
+        overflow-x: hidden;
+        display: block;
+        min-height: 32vh;
+        width: 100%;
+        background-color: #000311;
+        /* border: 1px solid green; */
+        justify-content: flex-end;
+        align-items: flex-end;
+    }
+
+    footer .social_icon li a
+{
+    font-size: 1em;
+    color: #fff;
+    margin: 0 10px;
+    display: inline-block;
+    transition: 0.5s;
+}
+
+footer .menu-1 li a
+{
+    font-size: .6em;
+    color: #fff;
+    margin: 0 10px;
+    display: inline-block;
+    transition: 0.5s;
+    text-decoration: none;
+    opacity: 0.75;
+}
+
+footer p{
+    color: #fff;
+    text-align: center;
+    margin-top: 15px;
+    margin-bottom: 10px;
+    font-size: 0.6em;
+}
+
+.container .smm-text .smm-heading h1{
+    font-size: 65px;
+}
+
+}
+
+@media (min-width:501px) and (max-width:768px){
+
+    headers {
+        min-height: 70.5vh;
+        width: 100%;
+        background: url("./img/Apple\ Green\ Minimalist\ Digital\ Marketing\ Banner\ \(1\)/1.jpg") no-repeat center / contain;
+        position: relative;
+      }
+
+      .seo-page{
+        display: none;
+        position: relative;
+        background-color: #000311;
+        width: 100%;
+        /* background-color: #000d4c;  */
+        height: 800px;
+      }
+
+      .seo-page-img{
+        /* border-radius: -100%; */
+        position: absolute;
+        background-image: url(./img/seo-banner-heading.jpg)/cover;
+        background-repeat:no-repeat;
+        height: 800px;
+        width: 100%;
+        border: 1px solid red;
+        background-position: none;
+        /* background-size: 105%; */
+        z-index: 1;
+        background-color: #000311;
+        }
+
+        .service-block{
+            background-image: url(./img/service-bg.png);
+            width: 100%;
+            height: 1000px;
+            background-size: auto 50%;
+            /* border: 1px solid red; */
+            position: relative;
+            overflow: hidden;
+            background-repeat: repeat;
+            /* background-position: center; */
+        }
+        .service-block1{
+            /* border: 1px solid red; */
+            width: 100%;
+            min-height: 1150px;
+            /* height: 1200; */
+            background-size: auto 80%;
+            position: relative;
+            overflow: hidden;
+            background-repeat: repeat;
+            /* background-position: center; */
+        }
+       
+        
+
+}
+
+@media (min-width:769px) and (max-width:1200px){
+    
+
+    headers {
+        min-height: 82.9vh;
+        width: 100%;
+        background: url("./img/Apple\ Green\ Minimalist\ Digital\ Marketing\ Banner\ \(1\)/1.jpg") no-repeat center / contain;
+        position: relative;
+      }
+
+      .seo-page{
+        /* display: none; */
+        position: relative;
+        background-color: #000311;
+        width: 100%;
+        height: 70vh;
+      }
+
+      .seo-page-img{
+        /* border-radius: -100%; */
+        position: absolute;
+        background-image: url(./img/seo-banner-heading.jpg)/cover;
+        background-repeat:no-repeat;
+        height: 70vh;
+        width: 100%;
+        /* border: 1px solid red; */
+        background-position: top;
+        /* background-size: 105%; */
+        z-index: 1;
+        background-color: #000311;
+        }
+    
+        .seo-page .seo-page-img .cont-seo{
+            display: none;
+        }
+
+
+        .service-block{
+            background-image: url(./img/service-bg.png);
+            width: 100%;
+            height: 1000px;
+            background-size: auto 50%;
+            /* border: 1px solid red; */
+            position: relative;
+            overflow: hidden;
+            background-repeat: repeat;
+            /* background-position: center; */
+        }    
+
+         .background-styling .service-heading{
+            /* width: 50%; */
+            margin-top:50px;
+            display: flex;
+            color: #fff;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            gap: 5px;
+        }
+    
+        .background-styling .service-heading h2{
+            color: #0c60ff;
+            text-transform: uppercase;
+            font-size: 22px;
+        }
+        
+        .background-styling .service-heading h1{
+            text-align: center;
+            width: 100%;
+            text-align: center;
+            color: #fff;
+            text-transform: capitalize;
+            font-size: 35px;
+        }
+    
+        .background-styling .service-heading p{
+            color: #c3c8e1;
+            width: 70%;
+            text-align: center;
+            font-size: 17px;
+        }
+    
+        .container{
+            margin-top: 40px;
+            display: flex;
+            gap: 20px;
+            flex-direction: column;
+        }
+        .seo-img {
+            display: flex;
+            justify-content: center;
+        }
+        .seo-img img{
+            width: 500px;
+            height: 500px;
+        }
+    
+        .seo-text {
+            color: #fff;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            gap: 8px;
+        }
+    
+        .seo-text .seo-heading h1{
+            text-align: center;
+            font-size: 50px;
+            font-weight: 700;
+        }
+        
+    
+        .seo-text .seo-para{
+            text-align: justify;
+            color: #c3c8e1;
+            font-size: 18px;
+        }
+    
+        .seo-text .seo-notes{
+            font-size: 14px;
+            font-weight: 500;
+            text-transform: capitalize;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            gap: 10px;
+        }
+    
+        .seo-text .seo-btn button{
+            cursor: pointer;
+            text-decoration: none;
+            background-color: #f20055;
+            width: 190px;
+            outline: none;
+            border: none;
+            font-weight: 600;
+            font-size: 15px;
+            padding: 10px 10px;
+            color: #fff;
+            
+            /* width: 250px; */
+        }
+    
+        .seo-btn{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+    
+        .seo-text .seo-btn{
+            margin-top: 10px;
+            cursor: pointer;
+        }
+       /* /// --- smm service --- ///  */
+    .service-block1{
+        /* border: 1px solid red; */
+        width: 100%;
+        min-height: 1300px;
+        /* height: 1200; */
+        background-size: auto 80%;
+        position: relative;
+        overflow: hidden;
+        background-repeat: repeat;
+        /* background-position: center; */
+    }
+    .service-block1 .background-styling1 .container{
+        /* border: 5px solid red; */
+        display: flex;
+        flex-direction: column;
+        gap: 40px;
+        /* padding: 30px 0px; */
+        /* margin-top: 100px; */
+    }
+
+    .smm-img img{
+        height: 100%;
+        width: 100%;
+        /* margin-left: 50px; */
+    }
+
+    .smm-text .smm-heading h1{
+        text-align: center;
+        font-size: 50px;
+        font-weight: 600;
+    }
+
+    .smm-text .smm-para{
+        text-align: justify;
+        color: #c3c8e1;
+        font-size: 18px;
+        /* width: 100%; */
+    }
+
+    .smm-text .smm-notes{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+    }
+
+    .smm-text .smm-notes .smm-notes1{
+        font-size: 16px;
+    }
+    .smm-text .smm-notes .smm-notes2{
+        font-size: 16px;
+    }
+    .smm-btn {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .container .smm-text .smm-btn button{
+        margin-top: 30px;
+        cursor: pointer;
+        text-decoration: none;
+        background-color: #00ff74;
+        width: 150px;
+        outline: none;
+        border: none;
+        font-weight: 600;
+        font-size: 16px;
+        padding: 10px 10px;
+        color: #fff;
+        transition: all ease-in-out 0.3s;
+        /* width: 250px; */
+    }
+
+    /* ..// home contact page ..//  */
+.contact-page{
+    width: 100%;
+    height: 950px;
+    /* border: 1px solid red; */
+    background-color: #000311;
+}
+
+.contact-page .contact{
+    display: flex;
+    flex-direction: column;
+    padding: 40px;
+}
+
+.contact-page .contact .contact-heading{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    justify-content: flex-start;
+}
+
+.contact-page .contact .contact-heading h1{
+    color: #fff;
+    font-size: 30px;
+    text-align: center;
+}
+
+.contact-page .contact .contact-heading p{
+    color: #c3c8e1;
+    font-size: 20px;
+}
+
+
+.contact-content{
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+
+.contact-content .contact-form{
+    /* border: 1px solid green; */
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    width: 100%;
+}
+
+.contact-content .contact-form1{
+    /* border: 1px solid red; */
+    display: none;
+    height: 100%;
+    width: 100%;
+}
+
+.contact-form-btn{
+    display: flex;
+    justify-content: center;
+}
+
+}
+
+@media (min-width:1200px){
+    .contact-page{
+        width: 100%;
+        height: 1050px;
+        /* border: 1px solid red; */
+        background-color: #000311;
+    }
+}

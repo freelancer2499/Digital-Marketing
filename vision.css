@@ -1,0 +1,575 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+
+*,
+*::after,
+*::before{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    font-size: 62.5%;
+}
+
+body{
+    /* border: 5px solid purple; */
+    font-family: 'Poppins', sans-serif;
+}
+
+.seo-page{
+    /* border: 1px solid red; */
+    position: relative;
+    background-color: none;
+    width: 100%;
+    /* background-color: #000d4c; */ 
+    height: 50vh;
+}
+
+.seo-page-img{
+    /* border-radius: -100%; */
+    position: absolute;
+    background-image: url(./img/seo-banner-heading.jpg);
+    background-repeat:no-repeat;
+    height: 50vh;
+    width: 100%;
+    /* border: 1px solid red; */
+    background-position: 50%;
+    background-size: 105%;
+    z-index: 1;
+    background-color: #000311;
+    }
+
+.seo-page .seo-heading-para p{
+    width: 60%;
+    display: flex;
+    justify-content: center;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 34px;
+    color: #fff;
+}
+
+.seo-page .seo-landing-paragraph{
+    display: flex;
+    flex-direction: column;
+    gap: 0px;
+}
+
+
+.seo-page .seo-landing-para-small-heading p{
+    color: #f20055;
+    font-size: 18px;
+    font-weight: 600;
+    /* background-color: #f20055; */
+}
+
+.seo-page .seo-landing-para-large-heading h1{
+    color: #fff;
+    font-size: 75px;
+    font-weight: 550;
+    /* font-family: Arial, Helvetica, sans-serif; */
+}
+
+.seo-page .seo-landing-para-1 p{
+    color: #fff;
+    font-size: 18px;
+    text-align: justify;
+    margin-bottom: 20px;
+}
+
+.seo-page .seo-landing-para-btn button{
+    transition: all ease-in-out 0.2s;
+    height: 45px;
+    cursor: pointer;
+    text-decoration: none;
+    background-color: #f20055;
+    width: 250px;
+    outline: none;
+    border: none;
+    font-weight: 600;
+    font-size: 16px;
+    padding: 10px 10px;
+    color: #fff;
+    /* margin-bottom: 25px; */
+    /* width: 250px; */
+}
+.seo-page .seo-landing-para-btn button:hover{
+    border: #f20055 2px solid;
+    background-color: #000311;
+    color: #f20055;
+}
+
+.body-1{
+    /* height: 100%; */
+    /* width: 100%; */
+    /* border: 4px solid green; */
+}
+
+.contact-page{
+    /* height: 100%; */
+    width: 100%;
+}
+
+
+.seo-page .seo-page-img .container {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.seo-page .seo-page-img .container .vision-heading{
+    color: #fff;
+    width: 100%;
+}
+
+.seo-page .seo-page-img .container .vision-heading h1{
+    display: flex;
+    /* flex-direction: ; */
+    font-size: 30px;
+    text-transform: uppercase;
+}
+
+.orgainc-social .service-block .bg-image .background-styling .container .seo-img img{
+    object-fit: cover;
+}
+
+.orgainc-social .service-block .bg-image .background-styling .container .seo-text .seo-heading h1:nth-child(1){
+    font-size: 20px;
+    padding-top: 10px;
+    color: #c3e8e1;
+}
+
+.orgainc-social .service-block .bg-image .background-styling .container .seo-text .seo-heading h1:nth-child(2){
+    font-size: 55px;
+}
+
+.orgainc-social .service-block{
+    width: 100%;
+    /* border: 1px solid red; */
+    height: 100vh;
+}
+
+.orgainc-social .service-block .bg-image .background-styling .container .seo-text button{
+    display: none;
+}
+
+.paid-social {
+    /* border: 1px solid red; */
+    width: 100%;
+    height: 95vh;
+}
+
+.paid-social .bg-image .background-styling .container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.paid-social .bg-image .background-styling .container .vision-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+    width: 33.33%;
+    /* border: 1px solid red; */
+}
+
+.paid-social .bg-image .background-styling .container .vision-container .vision-img img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 150px;
+}
+
+.paid-social .bg-image .background-styling .container .vision-container .vision-heading h1{
+    color: #fff;
+    text-align: center;
+    font-size: 45px;
+}
+
+.paid-social .bg-image .background-styling .container .vision-container .vision-para p{
+    font-size: 20px;
+    text-align: center;
+}
+
+.paid-social .bg-image .background-styling .container .mission-container{
+      display: flex;
+    justify-content: center;
+    gap: 20px;
+    align-items: center;
+    flex-direction: column;
+    width: 33.33%;
+    /* border: 1px solid green; */
+}
+
+.paid-social .bg-image .background-styling .container .mission-container .mission-img img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 150px;
+}
+
+.paid-social .bg-image .background-styling .container .mission-container .mission-heading h1{
+    color: #fff;
+    text-align: center;
+    font-size: 45px;
+}
+
+.paid-social .bg-image .background-styling .container .mission-container .mission-para p{
+    font-size: 20px;
+    text-align: center;
+}
+
+.paid-social .bg-image .background-styling .container .value-container{
+      display: flex;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 33.33%;
+    /* border: 1px solid yellow; */
+}
+
+.paid-social .bg-image .background-styling .container .value-container .value-img img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 150px;
+}
+
+.paid-social .bg-image .background-styling .container .value-container .value-heading h1{
+    color: #fff;
+    text-align: center;
+    font-size: 45px;
+}
+
+.paid-social .bg-image .background-styling .container .value-container .value-para p{
+    font-size: 20px;
+    text-align: center;
+}
+
+.hero-banner{
+    width: 100%;
+    height: 100vh;
+}
+
+.hero-banner img{
+    width: 100%;
+    object-fit: cover;
+}
+
+@media(min-width:100px) and (max-width:500px){
+
+    .hero-banner{
+        display: none;
+        /* border: 1px solid red; */
+    }
+     
+    .seo-page{
+        /* border: 1px solid red; */
+        position: relative;
+        background-color: none;
+        width: 100%;
+        /* background-color: #000d4c; */ 
+        height: 100vh;
+    }
+
+    .seo-page-img{
+        /* border-radius: -100%; */
+        position: absolute;
+        background-image: url(./img/seo-banner-heading.jpg);
+        background-repeat:no-repeat;
+        height: 100vh;
+        width: 100%;
+        /* border: 1px solid red; */
+        background-position: 50%;
+        background-size: 105%;
+        z-index: 1;
+        background-color: #000311;
+        }
+
+        .seo-page .seo-heading-para p{
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            font-size: 13px;
+            font-weight: 500;
+            line-height: normal;
+            color: #fff;
+        }
+
+    
+.paid-social {
+    /* border: 1px solid red; */
+    width: 100%;
+    height: 1450px;
+}
+.paid-social .bg-image .background-styling .container {
+    display: flex;
+    flex-direction: column;
+    /* border: 1px solid red; */
+    gap: 50px;
+    justify-content: space-between;
+}
+
+.paid-social .bg-image .background-styling .container .vision-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+    width: 100%;
+    /* border: 1px solid red; */
+}
+
+
+.paid-social .bg-image .background-styling .container .vision-container .vision-heading h1{
+    color: #fff;
+    text-align: center;
+    font-size: 30px;
+}
+
+.paid-social .bg-image .background-styling .container .vision-container .vision-para p{
+    font-size: 18px;
+    text-align: center;
+}
+
+.paid-social .bg-image .background-styling .container .mission-container{
+    display: flex;
+  justify-content: center;
+  gap: 20px;
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
+  /* border: 1px solid green; */
+}
+.paid-social .bg-image .background-styling .container .mission-container .mission-img img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 150px;
+}
+
+.paid-social .bg-image .background-styling .container .mission-container .mission-heading h1{
+    color: #fff;
+    text-align: center;
+    font-size: 30px;
+}
+
+.paid-social .bg-image .background-styling .container .mission-container .mission-para p{
+    font-size: 18px;
+    text-align: center;
+}
+
+.paid-social .bg-image .background-styling .container .value-container{
+    display: flex;
+  gap: 20px;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
+  /* border: 1px solid yellow; */
+}
+
+.paid-social .bg-image .background-styling .container .value-container .value-img img{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 150px;
+}
+
+.paid-social .bg-image .background-styling .container .value-container .value-heading h1{
+  color: #fff;
+  text-align: center;
+  font-size: 30px;
+}
+
+.paid-social .bg-image .background-styling .container .value-container .value-para p{
+  font-size: 18px;
+  text-align: center;
+}
+
+.orgainc-social .service-block .bg-image .background-styling .container{
+    display: flex;
+    flex-direction: column;
+}
+.orgainc-social .service-block .bg-image .background-styling .container .seo-img img{
+    object-fit: cover;
+}
+
+.orgainc-social .service-block{
+    width: 100%;
+    /* border: 1px solid red; */
+    height:800px;
+}
+
+.orgainc-social .service-block .bg-image .background-styling .container .seo-text .seo-heading h1:nth-child(1){
+    font-size: 20px;
+    padding-top: 10px;
+    color: #c3e8e1;
+}
+
+.orgainc-social .service-block .bg-image .background-styling .container .seo-text .seo-heading h1:nth-child(2){
+    font-size: 35px;
+}
+
+}
+
+
+@media(min-width:501px) and (max-width:768px){
+    .seo-page{
+        /* border: 1px solid red; */
+        position: relative;
+        background-color: none;
+        width: 100%;
+        /* background-color: #000d4c; */ 
+        height: 100vh;
+    }
+
+    .seo-page-img{
+        /* border-radius: -100%; */
+        position: absolute;
+        background-image: url(./img/seo-banner-heading.jpg);
+        background-repeat:no-repeat;
+        height: 100vh;
+        width: 100%;
+        /* border: 1px solid red; */
+        background-position: 50%;
+        background-size: 105%;
+        z-index: 1;
+        background-color: #000311;
+        }
+
+        .seo-page .seo-heading-para p{
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            font-size: 20px;
+            font-weight: 500;
+            line-height: normal;
+            color: #fff;
+        }
+
+    
+.paid-social {
+    display: none;
+    border: 1px solid rgb(17, 255, 0);
+    width: 100%;
+    height: 100vh;
+}
+
+
+.paid-social .bg-image .background-styling .container {
+    display: flex;
+    flex-direction: column;
+    /* border: 1px solid red; */
+    gap: 50px;
+    justify-content: space-between;
+}
+
+.paid-social .bg-image .background-styling .container .vision-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+    width: 100%;
+    /* border: 1px solid red; */
+}
+
+
+.paid-social .bg-image .background-styling .container .vision-container .vision-heading h1{
+    color: #fff;
+    text-align: center;
+    font-size: 30px;
+}
+
+.paid-social .bg-image .background-styling .container .vision-container .vision-para p{
+    font-size: 18px;
+    text-align: center;
+}
+
+.paid-social .bg-image .background-styling .container .mission-container{
+    display: flex;
+    display: none;
+  justify-content: center;
+  gap: 20px;
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
+  /* border: 1px solid green; */
+}
+.paid-social .bg-image .background-styling .container .mission-container .mission-img img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 150px;
+}
+
+.paid-social .bg-image .background-styling .container .mission-container .mission-heading h1{
+    color: #fff;
+    text-align: center;
+    font-size: 30px;
+}
+
+.paid-social .bg-image .background-styling .container .mission-container .mission-para p{
+    font-size: 18px;
+    text-align: center;
+}
+
+.paid-social .bg-image .background-styling .container .value-container{
+    display: flex;
+  gap: 20px;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
+  /* border: 1px solid yellow; */
+}
+
+.paid-social .bg-image .background-styling .container .value-container .value-img img{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 150px;
+}
+
+.paid-social .bg-image .background-styling .container .value-container .value-heading h1{
+  color: #fff;
+  text-align: center;
+  font-size: 30px;
+}
+
+.paid-social .bg-image .background-styling .container .value-container .value-para p{
+  font-size: 18px;
+  text-align: center;
+}
+
+.orgainc-social .service-block .bg-image .background-styling .container{
+    display: flex;
+    flex-direction: column;
+}
+.orgainc-social .service-block .bg-image .background-styling .container .seo-img img{
+    object-fit: cover;
+    padding-left: 10px;
+}
+
+.orgainc-social .service-block{
+    width: 100%;
+    /* border: 1px solid red; */
+    height:950px;
+}
+
+.orgainc-social .service-block .bg-image .background-styling .container .seo-text .seo-heading h1:nth-child(1){
+    font-size: 20px;
+    padding-top: 10px;
+    color: #c3e8e1;
+}
+
+.orgainc-social .service-block .bg-image .background-styling .container .seo-text .seo-heading h1:nth-child(2){
+    font-size: 35px;
+}
+
+}
